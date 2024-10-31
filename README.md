@@ -5,6 +5,20 @@ The Jitsi Meet React SDK provides the same user experience as the [Jitsi Meet](h
 ```bash
 npm install @jitsi/react-sdk
 ```
+
+### Usage
+Import the components into your project
+#### JitsiMeeting
+If using JitsiMeeting 
+```js
+import {JitsiMeeting} from "@jitsi/react-sdk";
+```
+#### JaaSMeeting
+If using JaaSMeeting
+```js
+import {JaaSMeeting} from "@jitsi/react-sdk";
+```
+
 ### Modules
 This library exposes two components with similar properties, intended for different use-cases.
 #### JitsiMeeting
